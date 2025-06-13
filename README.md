@@ -1,13 +1,12 @@
 # 🏴‍☠️ One Piece Character Finder
 
-This project was developed as part of the **DIO** Docker course.
-The initial goal was to create a simple "Hello World" project running in an Apache container with Docker.
-The project evolved into a small character finder for the One Piece anime, with a public API and dynamic information in a custom interface.
+
+Project developed as part of the **DIO** Docker course. The initial goal was to create a simple "Hello World" project running in an Apache container with Docker. To improve the initial scope, I created a One Piece character identifier, with a public API and dynamic information.
 
 
 ## 📌 About the project
 
-The application is composed of HTML, CSS, and JavaScript, and is run in a Docker container with Apache as the web server.
+The application is composed of HTML, CSS and JavaScript and runs in a Docker container with Apache.
 
 When you type a character's name, the system queries the [One Piece public API](https://www.freepublicapis.com/one-piece-api) and displays information such as occupation, age, bounty, and other data.
 
