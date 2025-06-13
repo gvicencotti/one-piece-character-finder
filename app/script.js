@@ -20,12 +20,12 @@ async function searchCharacter() {
 
     resultDiv.innerHTML = `
       <h2>${found.name}</h2>
-      <p><strong>Ocupação:</strong> ${found.job}</p>
-      <p><strong>Idade:</strong> ${found.age}</p>
-      <p><strong>Recompensa:</strong> ${found.bounty || "Unknown"}</p>
+      <p><strong>Occupation:</strong> ${found.job}</p>
+      <p><strong>Age:</strong> ${found.age}</p>
+      <p><strong>Bounty:</strong> ${found.bounty || "Unknown"}</p>
       <p><strong>Status:</strong> ${found.status}</p>
-      <p><strong>Tripulação:</strong> ${found.crew?.name || "Independent"}</p>
-      <p><strong>Fruta:</strong> ${found.fruit?.name || "None"}</p>
+      <p><strong>Crew:</strong> ${found.crew?.name || "Independent"}</p>
+      <p><strong>Fruit:</strong> ${found.fruit?.name || "None"}</p>
     `;
   } catch (err) {
     resultDiv.innerHTML = "Error looking for character.";
