@@ -1,0 +1,98 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Pirata One', cursive;
+  background: url('images/background.png') no-repeat center center fixed;
+  background-size: cover;
+  margin: 0;
+  padding: 2em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: black;
+}
+
+header {
+  margin-bottom: 1em;
+}
+
+.logo {
+  max-width: 600px;
+  height: auto;
+  margin-bottom: 1em;
+}
+
+h1 {
+  font-size: 4em;
+  margin-bottom: 1em;
+  text-shadow: 2px 2px #fff;
+}
+
+.search-box {
+  background: #d2691ea4;
+  padding: 2em 3em;
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 2em;
+}
+
+.search-box h1 {
+  margin-bottom: 1em;
+  color: black;
+  text-shadow: none;
+}
+
+.search-container {
+  display: flex;
+  gap: 1em;
+}
+
+input {
+  padding: 0.8em;
+  width: 300px;
+  border: 2px solid #333;
+  border-radius: 8px;
+  font-size: 1em;
+}
+
+button {
+  padding: 0.8em 1.5em;
+  background-color: #ff4136;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background-color: #e62e2e;
+}
+
+.result {
+  max-width: 600px;
+  background: #d2691ea4;
+  border-radius: 12px;
+  padding: 1.5em;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+.result h2 {
+  margin-top: 0;
+}
+
+.result p {
+  margin: 0.5em 0;
+  font-size: 1.1em;
+}
+
+.hidden {
+  display: none;
+}
